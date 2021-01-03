@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Hold My Grog</title>
-  <link href="{{site.baseurl}}/css/common.css" rel="stylesheet"/>
-</head>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+{%- include head.html -%}
+
 <body>
 
-<header class="masthead">
-  <h1>Hold My Grog Minecraft</h1>
-  {% include nav.html navclass='nav-top' %}
-</header>
+   {%- include header.html -%}
 
-{{content}}
+   <div class="content">
+      <div class="container">
+         {{ content }}
+      </div>
+   </div><!-- end .content -->
 
-<footer>
-  {% include nav.html navclass='nav-bottom' %}
-  <p>2020 Hold My Grog</p>
-</footer>
+   {%- include footer.html -%}
+   {%- include scripts.html -%}
+
 </body>
+
 </html>
