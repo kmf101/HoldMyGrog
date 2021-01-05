@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Contact Long Haul
+title: Contact Hold My Grog
 ---
 
 <div id="contact">
   <h1 class="pageTitle">Contact Me</h1>
   <div class="contactContent">
-    <p class="intro">This is an example Contact page. If you want to make changes then do so in the <code>contact.html</code> file.</p>
-    <p>The form is provided by <a href="http://formspree.io/">Formspree.</a> Follow the directions on their site to set up the form for use.</p>
-    <p>If you have questions about the theme feel free to <a href="mailto:brimaidesigns@gmail.com">email me</a> or create an issue on <a href="https://github.com/brianmaierjr/long-haul">GitHub</a>. Enjoy!</p>
+    <p class="intro">If want to join the server, get help getting on the server, or would like to request a mod be added to the server, please do so here.</p>
+    <p>Please leave your name <i>(hopefully something we'll know you by)</i>,  an email address to reach you, and a short message on what you are after.</p>
+    <p>Enjoy!</p>
   </div>
   <form action="https://formspree.io/f/xjvppnen" method="POST">
     <label for="name">Name</label>
